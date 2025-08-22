@@ -1,0 +1,40 @@
+[{
+  "id" : "JWST",
+  "title" : "Inside the Most Powerful Telescope Ever Built: JWST",
+  "titleLines": [
+    "Inside the Most Powerful Telescope",
+    "Ever Built: JWST"
+  ],
+  "articlePath" : "/tech-in-astronomy/JWST",
+  "img": "/Tech-JWST.jpg"
+},
+{
+  "id" : "Hubble",
+  "title" : "Hubble: Where the Stars First Spoke in Color",
+  "titleLines": [
+    "Hubble: Where the Stars",
+    "First Spoke in Color"
+  ],
+  "articlePath" : "/tech-in-astronomy/Hubble",
+  "img": "/Tech-Hubble.jpg"
+},
+{
+  "id" : "VeraRubbin",
+  "title" : "Hubble: Where the Stars First Spoke in Color",
+  "titleLines": [
+    "Inside the Most Powerful Telescope",
+    "Ever Built: JWST"
+  ],
+  "articlePath" : "/tech-in-astronomy/VeraRubbin",
+  "img": "/Tech-VeraRubin.png"
+},
+{
+  "id" : "Euclid",
+  "title" : "Hubble: Where the Stars First Spoke in Color",
+  "titleLines": [
+    "Inside the Most Powerful Telescope",
+    "Ever Built: JWST"
+  ],
+  "articlePath" : "/tech-in-astronomy/Euclid",
+  "img": "/Tech-Euclid.png"
+}]

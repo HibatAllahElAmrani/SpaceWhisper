@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+
+
+/* Safe reset without breaking layout */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.headerTechInAstro{
+  position: relative; 
+  background-image: url('/JWST-removebg-preview.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+.contentTechInAstro{
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+.sectionTitle{
+  font-family: "Inknut Antiqua", "sans-serif";
+  font-size: 50px;
+  margin-top: 140px;
+}
+h3{
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: -45px;
+}
+.menuIconSections{
+  position: absolute;   /* removes it from normal flow */
+  top: 90px;            /* distance from the top */
+  right: 100px;           /* distance from the left */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;             /* space between lines */
+  cursor: pointer;
+  z-index: 10; 
+}
+.menuIconSections:hover{
+  cursor: pointer;
+}
+.menuIconElmt {
+  width: 55px;
+  height: 4.5px;
+  background-color: rgba(255, 228, 196, 0.596);
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+.sectionsMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: rgba(255, 228, 196, 0.6);
+  color: black;
+  position: relative;
+  z-index: 4;
+  width: 160px;
+  border-style: hidden;
+  border-radius: 10px;
+}
+.sectionMenuItem:hover{
+  font-weight: bolder;
+}
+.sectionMenuItemStyling{
+  text-decoration: none;
+  color: black;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+  z-index: 1;
+}
+.overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+.body{
+  margin: 130px 20%;
+  font-size: 30px;
+  font-family: "Inknut Antiqua", "sans-serif";
+  line-height: 45px;
+}
+
+.technos-container{
+  font-family: 'Linden-Hill', serif;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+.technology-link {
+  text-decoration: none;
+  color: white;
+}
+.technology-link:visited {
+  color: inherit;
+}
+.technology-card {
+  padding: 20px;
+  border: 2px solid rgba(250, 235, 215, 0.644);
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s ease;
+  text-align: center;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+.technology-card:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+.technology-card:active {
+  background-color: rgba(255, 255, 255, 0.3); 
+  transition: 0.1s ease;
+}
+.techImg{
+  width: 12em;
+  position: relative;
+  z-index: 2;
+}
+.tech-title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  line-height: 1px;
+  align-items: center;
+}
+

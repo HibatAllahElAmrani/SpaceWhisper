@@ -1,0 +1,98 @@
+.upperPart{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 160px;
+  margin-top: -8px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.logoHome{
+  margin-top: 40px;
+  margin-left: 50px;
+  background-color: black;
+  border-style: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(214, 214, 214, 0.432);
+  height: 70px;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -30px;
+}
+.bigTextHome{
+  font-weight: 100;
+  font-size: 25px;
+  color: #f5efe1;
+  margin-top: 40px;
+  margin-bottom: -12px;
+}
+.smallTextHome{
+  font-size: 16px;
+  color: #f5efe1;
+  text-align: center;
+}
+
+.menuIcon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 140px
+}
+.menuIconElmt{
+  background-color: rgba(255, 228, 196, 0.596);
+  border-style: hidden;
+  border-radius: 2px;
+  height: 4px;
+  width: 45px;
+  margin-bottom: 5px;
+}
+
+
+.seperator{
+  background-color: rgba(245, 228, 209, 0.384);
+  height: 1px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.downPart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 95px;
+}
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5efe1;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  width: 200px;
+  height : 200px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.section:hover{
+  cursor: pointer;
+  background-color: #ffe8beee;
+}
+.section:active{
+  background-color: #f5efe1;
+  transition: 0.1s;
+}

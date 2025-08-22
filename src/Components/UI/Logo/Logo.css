@@ -1,0 +1,105 @@
+.logo {
+  background-color: black;
+  border-style: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(214, 214, 214, 0.5);
+  max-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 0.3s ease;
+  /* Base size that will be scaled */
+  height: 120px;
+  padding: 20px 0;
+}
+
+.logoImg {
+  transform: rotate(-13deg);
+  margin-right: -15px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  /* Base image size */
+  width: 80px;
+}
+
+.SpaceWhisper {
+  color: #f5efe1;
+  margin-right: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  /* Base font size */
+  font-size: 30px;
+}
+
+/* Size variations using transform scale */
+.logo-large {
+  transform: scale(clamp(0.7, 1.2vw + 0.5, 1.2)); /* Scales from 70% to 120% */
+}
+
+.logo-medium {
+  transform: scale(clamp(0.6, 1vw + 0.4, 0.9)); /* Scales from 60% to 90% */
+}
+
+.logo-small {
+  transform: scale(clamp(0.4, 0.8vw + 0.3, 0.7)); /* Scales from 40% to 70% */
+}
+
+/* Variant styles */
+.logo-welcome {
+  margin-top: clamp(60px, 15vh, 140px);
+  margin-bottom: clamp(20px, 5vh, 40px);
+}
+
+.logo-login {
+  margin-bottom: clamp(15px, 3vh, 25px);
+}
+
+.logo-navbar {
+  margin: 0;
+  box-shadow: 0 0 10px rgba(214, 214, 214, 0.3);
+}
+
+/* Responsive breakpoints - simplified since we use scale */
+@media screen and (max-width: 768px) {
+  .logo-welcome {
+    margin-top: clamp(30px, 8vh, 60px);
+    margin-bottom: clamp(15px, 3vh, 25px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-welcome {
+    margin-top: clamp(20px, 6vh, 40px);
+  }
+}
+
+/* Hover effects for interactive logos */
+.logo:hover {
+  transform: translateY(-2px) scale(var(--current-scale, 1)); /* Preserve current scale on hover */
+  box-shadow: 0 0 20px rgba(214, 214, 214, 0.6);
+}
+
+.logo-large:hover {
+  --current-scale: clamp(0.7, 1.2vw + 0.5, 1.2);
+}
+
+.logo-medium:hover {
+  --current-scale: clamp(0.6, 1vw + 0.4, 0.9);
+}
+
+.logo-small:hover {
+  --current-scale: clamp(0.4, 0.8vw + 0.3, 0.7);
+}
+
+.logo:hover .logoImg {
+  transform: rotate(-10deg) scale(1.05);
+}
+.logo:hover .SpaceWhisper{
+  transform:scale(1.01)
+}
+.LogoLink{
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "black-holes",
+    "question": "What happens inside a black hole?",
+    "articlePath": "/bigquestions/black-holes",
+    "img" : "/Black_hole_BG.jpg"
+  },
+  {
+    "id": "end-of-universe",
+    "question": "Will the universe end in fire, in ice, or will it be torn apart?",
+    "articlePath": "/bigquestions/end-of-universe",
+    "img" : "/Cosmos.jpg"
+  },
+  {
+    "id" :"expansion-of-universe",
+    "question" : "Are we missing a fundamental law of nature, or are our models just too human to grasp the full cosmos?",
+    "articlePath": "/bigquestions/expansion-of-universe",
+    "img" : "/expansion.jpg"
+  }
+]
