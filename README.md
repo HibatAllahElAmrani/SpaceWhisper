@@ -6,9 +6,7 @@ SpaceWhisper is an interactive web platform dedicated to astronomy, designed to 
 
 ## Project Overview
 
-SpaceWhisper was developed as part of an academic project at INPT (Institut National des Postes et Télécommunications).
-
-The goal is to provide a **unified platform** that combines:
+The goal of this project is to provide a **unified platform** that combines:
 - Scientific popularization
 - Exploration tools
 - Astronomy technologies
