@@ -106,10 +106,56 @@ For now, we exist in the brief, brilliant middle chapter of the universe’s sto
 `,
 
   "expansion-of-universe": `
-## Are Our Models Too Human?
+# Are We Missing a Fundamental Law of Nature, or Are Our Models Just Too Human to Grasp the Full Cosmos?
 
-Maybe we’re missing something big...
+When you look at the night sky, it feels like you’re seeing everything the universe has to offer: stars, planets, galaxies. But in reality, what we can see is only a tiny fraction of what’s actually out there. Scientists have discovered that most of the universe is made of two mysterious ingredients: **dark matter** and **dark energy**.
 
-(Article content here)
+
+## First, What Is Dark Energy?
+Dark energy is a kind of unknown force that pushes the universe apart. Instead of galaxies pulling together with gravity, dark energy acts like the opposite of gravity. It stretches space itself, making the universe expand faster and faster over time.  
+
+If we break down the entire cosmos:
+- **Dark energy** makes up about **68%** of the universe.
+- **Dark matter** makes up about **27%**.
+- **Normal matter** (everything we can touch and see: stars, humans, coffee, phones) is only about **5%**.
+
+That means almost everything we know and love is just a tiny fraction of reality.
+
+## Why Call It "Dark"?
+The word *dark* doesn’t mean it’s evil or scary—it means **we can’t see it**.  
+- It doesn’t shine like stars.  
+- It doesn’t reflect light like planets.  
+- It doesn’t emit radiation like black holes.  
+
+It’s invisible. The only reason we know it exists is because of the **effects it has on the things we *can* see**.
+
+## Enter Dark Matter
+Dark matter is like the invisible glue of the universe.  
+
+When scientists looked at how galaxies spin, they found a big mystery: galaxies move as if they contain way more mass than what we can see in stars and gas. Something invisible must be adding extra gravity to hold galaxies together. That “something” is what we call **dark matter**.
+
+Without it, galaxies would have simply flown apart long ago. Dark matter is the silent structure-builder of the cosmos.
+
+## How Do Dark Matter and Dark Energy Shape the Universe?
+- **Dark matter** pulls things together. It creates the cosmic web where galaxies form.  
+- **Dark energy** pushes things apart. It accelerates the expansion of space itself.  
+
+Together, they act like two competing forces: one building cosmic structures, the other stretching the universe wider and wider.
+
+## Are We Missing Something?
+Here’s the mind-bending part:  
+We don’t know **what** dark matter and dark energy actually are. They could be entirely new particles, new fields, or maybe signs that our understanding of physics is incomplete.  
+
+Some scientists even ask:  
+- Are our models of the universe too simple?  
+- Do we need a new fundamental law of nature?  
+- Or is the cosmos just too vast for human intuition to fully capture?
+
+## The Cosmic Mystery
+So next time you look up at the stars, remember: most of the universe is invisible to us. The galaxies, the stars, the planets—they are just the tip of the iceberg.  
+
+The real story of the cosmos is still hidden in the **dark**.
+
+✨ What we call “dark” today may one day become the most illuminating discovery in human history.
 `
 };

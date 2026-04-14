@@ -4,7 +4,12 @@ import Logo from "./UI/Logo/Logo";
 export default function WelcomePage({ bigText, smallText, onLoginClick }) {
   return (
     <div className="homeWrapper">
-      <Logo size="large" variant="welcome" style={{ marginTop: 130}}/>
+      <Logo 
+        size="large" 
+        variant="welcome" 
+        clickable={false}
+        style={{ marginTop: 120}}
+      />
       
       <h1 className="bigText">
         {bigText}

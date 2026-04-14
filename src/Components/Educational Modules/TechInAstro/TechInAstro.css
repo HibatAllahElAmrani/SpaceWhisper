@@ -21,14 +21,14 @@ body, html {
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
 }
 .contentTechInAstro{
   position: relative;
   z-index: 2;
   color: white;
-  padding: 40px;
+  padding: 50px;
   text-align: center;
 }
 .sectionTitle{

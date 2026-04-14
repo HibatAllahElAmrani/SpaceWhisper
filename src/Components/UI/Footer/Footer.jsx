@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import './Footer.css';
 
 export default function Footer() {
   return (
@@ -13,7 +14,10 @@ export default function Footer() {
             <p> Home page </p>
           </Link>
           
-          <p className="sectionRef"> Explore the cosmos </p>
+          <Link to="/explore-cosmos"
+          className="sectionRef">
+            <p> Explore the cosmos </p>
+          </Link>
 
           <Link to="/bigquestions" className="sectionRef">
             <p> Big Questions </p>
@@ -28,8 +32,8 @@ export default function Footer() {
 
           <p className="sectionRef"> Ask the Cosmos </p>
 
-          <p className="sectionRef"> Conytribute to Astronomy </p>
-
+          <Link to="/contribute-astronomy"><p className="sectionRef"> Contribute to Astronomy </p>
+</Link>
           <p className="sectionRef"> Community </p>
         </div>
 

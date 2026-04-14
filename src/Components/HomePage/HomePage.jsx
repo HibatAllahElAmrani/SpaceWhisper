@@ -1,20 +1,18 @@
 import { Link } from 'react-router-dom';
-import './HomePage.css'
+import './HomePage.css';
+import Logo from '../UI/Logo/Logo';
 
 export default function HomePage({ bigText, smallText}) {
   return (
     <>
       <div className='upperPart'>
-        <div className="logoHome">
-          <img
-            src="/LogoIMG.png"
-            alt="Logo Img"
-            className="logoImgLogin"
-          />
-          <h1 className="SpaceWhisperLogin">    
-            SpaceWhisper 
-          </h1>
-        </div>
+        <Logo size="small" variant="navbar" style={{ marginTop: 24,
+        transform: 'scale(0.5)',
+        marginLeft: "var(--logo-margin)",
+        "--logo-margin": "clamp(-60px, -8vw, 0px)"
+
+        }}
+        />
 
         <div className='textContainer'>
           <h1 className="bigTextHome"> 

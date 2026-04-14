@@ -1,0 +1,46 @@
+.menuIconSections {
+  position: absolute;
+  top: 90px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.menuIconSections:hover {
+  cursor: pointer;
+}
+
+.menuIconElmt {
+  width: 55px;
+  height: 4.5px;
+  background-color: rgba(255, 228, 196, 0.596);
+  border-radius: 3px;
+  margin-bottom: 2px;
+}
+
+.sectionsMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: rgba(255, 228, 196, 0.6);
+  color: black;
+  position: relative;
+  z-index: 4;
+  width: 160px;
+  border-style: hidden;
+  border-radius: 10px;
+}
+
+.sectionMenuItem:hover {
+  font-weight: bolder;
+}
+
+.sectionMenuItemStyling {
+  text-decoration: none;
+  color: black;
+}
