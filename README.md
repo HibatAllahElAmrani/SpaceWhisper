@@ -6,11 +6,7 @@ SpaceWhisper is an interactive web platform dedicated to astronomy, designed to 
 
 ## Project Overview
 
-The goal of this project is to provide a **unified platform** that combines:
-- Scientific popularization
-- Exploration tools
-- Astronomy technologies
-- Community interaction (future)
+SpaceWhisper unifies intuitive interface, education, exploration, technology insights, and community into a single astronomy platform.
 
 ---
 
